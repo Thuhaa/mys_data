@@ -1,0 +1,175 @@
+{
+  "source": "vida_buildings_mys_selangor_kuala-lumpur_putrajaya_centroids.fgb",
+  "crs": "EPSG:4326",
+  "features": 2337721,
+  "tiles": [
+    {
+      "file": "1001_klang.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1001_klang.fgb",
+      "district_code": "1001",
+      "district_name": "DAERAH KLANG",
+      "features": 327796,
+      "bytes": 69030208,
+      "bbox": [
+        101.228133,
+        2.884277,
+        101.56992,
+        3.191916
+      ]
+    },
+    {
+      "file": "1002_kuala-langat.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1002_kuala-langat.fgb",
+      "district_code": "1002",
+      "district_name": "DAERAH KUALA LANGAT",
+      "features": 179606,
+      "bytes": 37837240,
+      "bbox": [
+        101.289634,
+        2.644406,
+        101.682041,
+        2.979661
+      ]
+    },
+    {
+      "file": "1004_kuala-selangor.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1004_kuala-selangor.fgb",
+      "district_code": "1004",
+      "district_name": "DAERAH KUALA SELANGOR",
+      "features": 138971,
+      "bytes": 29278080,
+      "bbox": [
+        101.101961,
+        3.15922,
+        101.493025,
+        3.525712
+      ]
+    },
+    {
+      "file": "1005_sabak-bernam.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1005_sabak-bernam.fgb",
+      "district_code": "1005",
+      "district_name": "DAERAH SABAK BERNAM",
+      "features": 75342,
+      "bytes": 15872808,
+      "bbox": [
+        100.812471,
+        3.487632,
+        101.346956,
+        3.866887
+      ]
+    },
+    {
+      "file": "1006_ulu-langat.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1006_ulu-langat.fgb",
+      "district_code": "1006",
+      "district_name": "DAERAH ULU LANGAT",
+      "features": 361571,
+      "bytes": 76177344,
+      "bbox": [
+        101.721836,
+        2.866718,
+        101.951601,
+        3.259956
+      ]
+    },
+    {
+      "file": "1007_ulu-selangor.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1007_ulu-selangor.fgb",
+      "district_code": "1007",
+      "district_name": "DAERAH ULU SELANGOR",
+      "features": 113450,
+      "bytes": 23899280,
+      "bbox": [
+        101.324074,
+        3.328977,
+        101.791686,
+        3.801518
+      ]
+    },
+    {
+      "file": "1008_petaling.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1008_petaling.fgb",
+      "district_code": "1008",
+      "district_name": "DAERAH PETALING",
+      "features": 435549,
+      "bytes": 91758016,
+      "bbox": [
+        101.428784,
+        2.976597,
+        101.730736,
+        3.229497
+      ]
+    },
+    {
+      "file": "1009_gombak.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1009_gombak.fgb",
+      "district_code": "1009",
+      "district_name": "DAERAH GOMBAK",
+      "features": 244300,
+      "bytes": 51473208,
+      "bbox": [
+        101.430692,
+        3.148479,
+        101.835973,
+        3.402152
+      ]
+    },
+    {
+      "file": "1010_sepang.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1010_sepang.fgb",
+      "district_code": "1010",
+      "district_name": "DAERAH SEPANG",
+      "features": 134961,
+      "bytes": 28426488,
+      "bbox": [
+        101.576388,
+        2.595318,
+        101.784548,
+        3.010923
+      ]
+    },
+    {
+      "file": "1400_kuala-lumpur.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1400_kuala-lumpur.fgb",
+      "district_code": "1400",
+      "district_name": "W.P. Kuala Lumpur",
+      "features": 279874,
+      "bytes": 61149200,
+      "bbox": [
+        101.615585,
+        3.03381,
+        101.758648,
+        3.243935
+      ]
+    },
+    {
+      "file": "1600_putrajaya.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/1600_putrajaya.fgb",
+      "district_code": "1600",
+      "district_name": "W.P. Putrajaya",
+      "features": 13857,
+      "bytes": 3027888,
+      "bbox": [
+        101.660121,
+        2.876288,
+        101.731877,
+        2.980233
+      ]
+    },
+    {
+      "file": "unassigned.fgb",
+      "url": "https://raw.githubusercontent.com/Thuhaa/mys_data/main/outputs/building_centroids/unassigned.fgb",
+      "district_code": null,
+      "district_name": null,
+      "features": 32444,
+      "bytes": 6058400,
+      "bbox": [
+        100.819603,
+        2.593638,
+        101.954132,
+        3.879092
+      ]
+    }
+  ]
+}

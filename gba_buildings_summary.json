@@ -1,0 +1,185 @@
+{
+  "created_utc": "2026-11-07T15:54:07+00:00",
+  "script": "gba_buildings.py 1.0",
+  "dataset": "https://source.coop/tge-labs/globalbuildingatlas-lod1",
+  "citation": "Zhu, X. X., Chen, S., Zhang, F., Shi, Y. and Wang, Y. (2025). GlobalBuildingAtlas: an open global and complete dataset of building polygons, heights and LoD1 3D models. ESSD 17, 6647-6668.",
+  "licence": "Heights and non-ODbL polygons CC BY-NC 4.0; OpenStreetMap and Microsoft polygons ODbL",
+  "aoi_files": [
+    "kl.fgb",
+    "putajaya_adm4.fgb",
+    "putrajaya.fgb",
+    "selangor.fgb"
+  ],
+  "tiles": [
+    {
+      "tile": "e100_n05_e105_n00.parquet",
+      "url": "https://data.source.coop/tge-labs/globalbuildingatlas-lod1/e100_n05_e105_n00.parquet",
+      "size": 769251624,
+      "last_modified": "Sat, 06 Sep 2025 16:41:48 GMT",
+      "etag": "\"75eeb1a0edd2a5aaca171d0a15da9e4f-92\""
+    }
+  ],
+  "transfer": {
+    "row_groups_total": 563,
+    "row_groups_read": 151,
+    "rows_scanned": 2473984,
+    "bytes_fetched": 249157928,
+    "requests": 30
+  },
+  "buildings": 1932154,
+  "by_source": {
+    "google": 1169778,
+    "osm": 729121,
+    "ms": 33255
+  },
+  "height_known_share": 0.9732490267338939,
+  "height_m": {
+    "median": 5.673855304718018,
+    "p90": 9.338523292541504,
+    "p99": 16.021903991699226,
+    "max": 131.94664001464844
+  },
+  "storey_height_m": 3.0,
+  "buildings_by_storeys": {
+    "1": 687175,
+    "2": 760576,
+    "3-5": 467224,
+    "6-10": 12050,
+    "11-20": 4322,
+    "21-40": 797,
+    "41+": 10
+  },
+  "floor_area_share_by_storeys": {
+    "1": 0.059685675406261546,
+    "2": 0.2207288360764262,
+    "3-5": 0.4933295200197443,
+    "6-10": 0.09202762451361944,
+    "11-20": 0.09142294109846132,
+    "21-40": 0.04213959335478054,
+    "41+": 0.0006658095307066356
+  },
+  "footprint_km2": 414.17328426496937,
+  "floor_area_km2": 1236.6253375352094,
+  "tallest": [
+    {
+      "lon": 101.7097,
+      "lat": 3.15307,
+      "height_m": 131.9,
+      "storeys": 44,
+      "footprint_m2": 2851.4,
+      "source": "osm"
+    },
+    {
+      "lon": 101.70983,
+      "lat": 3.15267,
+      "height_m": 128.1,
+      "storeys": 43,
+      "footprint_m2": 1162.5,
+      "source": "ms"
+    },
+    {
+      "lon": 101.71875,
+      "lat": 3.15545,
+      "height_m": 127.8,
+      "storeys": 43,
+      "footprint_m2": 2105.2,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71131,
+      "lat": 3.15682,
+      "height_m": 126.7,
+      "storeys": 42,
+      "footprint_m2": 1558.4,
+      "source": "osm"
+    },
+    {
+      "lon": 101.70915,
+      "lat": 3.15761,
+      "height_m": 126.3,
+      "storeys": 42,
+      "footprint_m2": 1450.3,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71347,
+      "lat": 3.15305,
+      "height_m": 125.6,
+      "storeys": 42,
+      "footprint_m2": 1564.0,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71133,
+      "lat": 3.15656,
+      "height_m": 124.6,
+      "storeys": 42,
+      "footprint_m2": 1627.0,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71301,
+      "lat": 3.15336,
+      "height_m": 123.1,
+      "storeys": 41,
+      "footprint_m2": 3188.2,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71231,
+      "lat": 3.15365,
+      "height_m": 122.7,
+      "storeys": 41,
+      "footprint_m2": 1834.0,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71143,
+      "lat": 3.15761,
+      "height_m": 121.7,
+      "storeys": 41,
+      "footprint_m2": 2221.6,
+      "source": "osm"
+    },
+    {
+      "lon": 101.69821,
+      "lat": 3.15407,
+      "height_m": 120.9,
+      "storeys": 40,
+      "footprint_m2": 1461.7,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71216,
+      "lat": 3.15823,
+      "height_m": 119.6,
+      "storeys": 40,
+      "footprint_m2": 2221.4,
+      "source": "osm"
+    },
+    {
+      "lon": 101.70878,
+      "lat": 3.1522,
+      "height_m": 117.9,
+      "storeys": 39,
+      "footprint_m2": 1217.0,
+      "source": "osm"
+    },
+    {
+      "lon": 101.71059,
+      "lat": 3.15589,
+      "height_m": 116.8,
+      "storeys": 39,
+      "footprint_m2": 2165.6,
+      "source": "osm"
+    },
+    {
+      "lon": 101.6979,
+      "lat": 3.1541,
+      "height_m": 116.4,
+      "storeys": 39,
+      "footprint_m2": 2025.4,
+      "source": "osm"
+    }
+  ]
+}

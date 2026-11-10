@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large or local files (GitHub rejects files over 100 MB)
+.DS_Store
+.idea/
+data/
+vida_cache/
+gba_buildings.fgb
+outputs/vida_buildings_*_centroids.fgb
+outputs/vida_buildings_*_points.fgb
+outputs/hex_r9_population_2026.fgb

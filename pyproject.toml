@@ -1,0 +1,26 @@
+[project]
+name = "malaysia-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Thuhaa", email = "josephthuha@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "geopandas>=1.2.0",
+    "numpy>=2.5.4",
+    "pyarrow>=26.0.1",
+    "pyogrio>=0.13.0",
+    "requests>=2.34.2",
+    "shapely>=2.2.0",
+    "tqdm>=4.70.1",
+    "urllib3>=2.8.0",
+]
+
+[project.scripts]
+malaysia-analysis = "malaysia_analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
